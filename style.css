@@ -36,6 +36,7 @@ background-color: blue
   .container{
       background-color: lightgray;
       color:lightgray;
+      display: inline-block;
   }
 
   #content{
@@ -65,4 +66,8 @@ background-color: blue
 
 #summary{
     font-size: 20px;
+}
+
+@media(min-width:995px){
+    .row.row-grid[class="col-md-12"]
 }
